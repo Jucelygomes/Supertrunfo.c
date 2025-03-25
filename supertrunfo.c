@@ -24,13 +24,13 @@ int main(){
     
     
     printf("Digite o cod da sua carta: \n");
-    scanf("%s", &A02, &B03);
+    scanf("%s", &A02);
 
     printf("Digite o nome do estado: \n");
-    scanf("%s", &A, &B);
+    scanf("%s", &A);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade1, &cidade2);
+    scanf("%s", &cidade1);
 
     printf("Digite o tamanho da populacao da cidade: \n");
     scanf("%s", &populacao);
@@ -44,6 +44,10 @@ int main(){
     printf("Digite o numero de postos turisticos: \n");
     scan("%d", &numerosdepontosturisticos);
 
+    printf("carta1: %s\n - estado: %n\n - codigo: %s\n - nome da cidade: %s\n");
+    printf("populacao: %d\n - area: %f\n - pib: %f\n - numerosdepontosturisticos: %d\n");
+
+    
 
 
     return 0;
